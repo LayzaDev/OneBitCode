@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+:root {
+  --primary-color: #1a521b;
+  --secundary-color: #ffffff;
+  --ternary-color: #128018;
+  --quaternary-color: #09320b;
+  --quinary-color: #09260b;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-color);
+}
+
+#container {
+  width: 670px;
+  height: 600px;
+  margin: 20px auto;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px var(--quinary-color);
+  color: var(--quinary-color-color);
+  background-color: var(--secundary-color);
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 15px;
+  color: var(--primary-color);
+}
+
+.formBox {
+  display: flex;
+}
+
+.name {
+  width: 594px;
+}
+
+.birthAndFormationBox,
+.locationInputBox {
+  display: flex;
+}
+
+.birthYearBox,
+.city {
+  margin-right: 40px;
+}
+
+.yearOfBirth {
+  width: 195px;
+}
+
+.fieldOfAction {
+  width: 358px;
+}
+
+.city {
+  width: 302px;
+}
+
+.state {
+  width: 250px;
+}
+
+.inputs {
+  font-size: 15px;
+  padding: 12px;
+  color: var(--secundary-color);
+  background-color: var(--primary-color);
+  border: 2px solid var(--quaternary-color);
+}
+
+.inputs:focus {
+  border: 2px solid var(--ternary-color);
+  outline: none;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+}
+
+.btn {
+  width: 170px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px var(--quaternary-color);
+  cursor: pointer;
+  color: var(--secundary-color);
+  background-color: var(--primary-color);
+}
+
+.btn:hover {
+  background-color: var(--quinary-color);
+  transition: 0.5s;
+  opacity: 1;
+}

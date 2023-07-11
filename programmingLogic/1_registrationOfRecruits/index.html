@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Recrutas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <div id="container">
+      <div id="box">
+        <div class="header">
+          <h1>Cadastro de Recrutas</h1>
+        </div>
+        <div class="formBox">
+          <form id="form" autocomplete="on">
+            <hr style="color: #1a521b" />
+            <div class="formEntries">
+              <div class="nameBox">
+                <label for="username">
+                  <p>Nome completo</p>
+                </label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  class="name inputs"
+                  placeholder="Digite seu nome"
+                  required
+                />
+              </div>
+              <div class="birthAndFormationBox">
+                <div class="birthYearBox">
+                  <label for="yearOfBirthUser">
+                    <p>Ano de nascimento</p>
+                  </label>
+                  <input
+                    type="number"
+                    name="yearOfBirthUser"
+                    id="yearOfBirthUser"
+                    min="0"
+                    class="yearOfBirth inputs"
+                    placeholder="0000"
+                    required
+                  />
+                </div>
+                <div class="fieldOfActionBox">
+                  <label for="fieldOfActionUser">
+                    <p>Campo de atuação</p>
+                  </label>
+                  <select
+                    name="fieldOfActionUser"
+                    id="fieldOfActionUser"
+                    class="fieldOfAction inputs"
+                  >
+                    <option disabled selected value="0">
+                      -- Escolha uma opção
+                    </option>
+                    <option value="Infantaria">Infantaria</option>
+                    <option value="Artilharia">Artilharia</option>
+                    <option value="Engenharia">Engenharia</option>
+                    <option value="Comunicações">Comunicações</option>
+                    <option value="Logística">Logística</option>
+                    <option value="Inteligência/Tecnologia">
+                      Inteligência/Tecnologia
+                    </option>
+                    <option value="Medicina">Medicina</option>
+                  </select>
+                </div>
+              </div>
+              <div class="locationInputBox">
+                <div class="cityBox">
+                  <label for="cityUser">
+                    <p>Cidade</p>
+                  </label>
+                  <input
+                    type="text"
+                    name="cityUser"
+                    id="cityUser"
+                    class="city inputs"
+                    placeholder="Nome da cidade"
+                    required
+                  />
+                </div>
+                <div class="stateBox">
+                  <label for="stateUser">
+                    <p>Estado</p>
+                  </label>
+                  <select name="stateUser" id="stateUser" class="state inputs">
+                    <option disabled selected value="0">
+                      -- Escolha uma opção
+                    </option>
+                    <option value="AC">Acre - AC</option>
+                    <option value="AL">Alagoas - AL</option>
+                    <option value="AP">Amapá - AP</option>
+                    <option value="AM">Amazonas - AM</option>
+                    <option value="BA">Bahia - BA</option>
+                    <option value="CE">Ceará - CE</option>
+                    <option value="ES">Espírito Santo - ES</option>
+                    <option value="GO">Goiás - GO</option>
+                    <option value="MA">Maranhão - MA</option>
+                    <option value="MT">Mato Grosso - MT</option>
+                    <option value="MS">Mato Grosso do Sul - MS</option>
+                    <option value="MG">Minas Gerais - MG</option>
+                    <option value="PA">Pará - PA</option>
+                    <option value="PB">Paraíba - PB</option>
+                    <option value="PR">Paraná - PR</option>
+                    <option value="PE">Pernambuco - PE</option>
+                    <option value="PI">Piauí - PI</option>
+                    <option value="RJ">Rio de Janeiro - RJ</option>
+                    <option value="RN">Rio Grande do Norte - RN</option>
+                    <option value="RS">Rio Grande do Sul - RS</option>
+                    <option value="RO">Rondônia - RO</option>
+                    <option value="RR">Roraima - RR</option>
+                    <option value="SC">Santa Catarina - SC</option>
+                    <option value="SP">São Paulo - SP</option>
+                    <option value="SE">Sergipe - SE</option>
+                    <option value="TO">Tocantins - TO</option>
+                    <option value="DF">Distrito Federal - DF</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="btnBox">
+              <button type="submit" id="submitBtn" class="btn">
+                <span>Cadastrar</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
