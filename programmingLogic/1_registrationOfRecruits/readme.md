@@ -2,7 +2,7 @@
 
 This is the first challenge of the "Programming Logic" module of the Full Stack JavaScript course by OneBitCode.
 
-### Challenge:
+## Challenge:
 
 Write a javascript program that allows you to save a recruit's information. The information to be saved is:
 
@@ -13,7 +13,7 @@ Write a javascript program that allows you to save a recruit's information. The 
 
 Then the program should display the recruit's full name, his field of study and his age (based on year of birth only).
 
-### Real Program
+## Real Program
 
 The program consists of a form that will receive user data and save it. The form has the following fields:
 
@@ -25,12 +25,13 @@ The program consists of a form that will receive user data and save it. The form
 
 When clicking on the register button, the user's data will be saved and an alert message will be displayed with the name, age (based on year of birth only), branch of activity, city and state.
 
-### Technologies
+## Technologies
 
 ![Technologies](https://raw.githubusercontent.com/LayzaDev/MemoryGame-DesignChallenge/main/img/tecnologies.png)
 
-### _Contact_
+## Contacts
 
-[Linkedin](https://www.linkedin.com/in/layza-nauane-dev12/)
-
-[Email](mailto:layzanauanedev@gmail.com)
+<div> 
+  <a href = "mailto:layzanauanedev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>   
+  <a href="https://www.linkedin.com/in/layza-nauane-dev12/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
