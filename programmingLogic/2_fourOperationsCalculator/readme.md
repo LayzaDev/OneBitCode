@@ -1,7 +1,5 @@
 # Challenge 2: 4 operations calculator
 
-<hr style="background: orange; width: 500px">
-
 This is the second challenge of the "Javascript I - Programming Logic" module of the "Full Stack Javascript by OneBitCode" course.
 
 ## Technologies
@@ -23,7 +21,7 @@ After calculating the results, the program will display them on the screen.
 
 <img src="./readme_img/before.png" />
 
-<hr style="background: orange">
+<hr>
 
 <img src='./readme_img/after.png'/>
 
